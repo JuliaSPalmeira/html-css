@@ -1,0 +1,43 @@
+.top {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-top: 55px;
+cursor: pointer;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-left: 30px;
+    color: white;
+}
+
+.info {
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-end;
+    width: 500px;
+    height: 0px;
+    margin-left: auto;
+    align-items: center;
+    padding-right: 100px;
+
+
+}
+
+.logo {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: white;
+    padding-left: 50px;
+
+
+}
+
+body {
+    background-image: url("https://www.bernardesarq.com.br/wp-content/uploads/2022/08/06088pr180131-006a.jpg");
+    height: 767px;
+    background-position: center center;
+}
