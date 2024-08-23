@@ -5,9 +5,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
 
 :root {
-    --font1: Verdana, Geneva, Tahoma, sans-serif;
-    --font2: "Passion One", sans-serif;
-    --font3: "Sriracha", cursive;
+    --font-1: Verdana, Geneva, Tahoma, sans-serif;
+    --font-2: "Passion One", sans-serif;
+    --font-3: "Sriracha", cursive;
 }
 
 * {
@@ -15,6 +15,8 @@
     padding: 0px;
     font-size: 1em;
 }
+
+
 
 html,
 body {
@@ -75,17 +77,23 @@ section.normal {
 }
 
 section.imagem {
-    background-color: rgb(46, 45, 45);
     color: white;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.616);
     background-size: cover;
     background-attachment: fixed;
 }
 
-section.imagem > p {
+#cor{
+     background-color: rgba(24, 20, 23, 0.555);
+     height: 500px;
+     width: 427px;
+     bottom: 10px;
+}
+
+section.imagem > pre{
     display: inline-block;
     padding: 5px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.466);
     text-shadow: 1px 1px 0px black;
 }
 
